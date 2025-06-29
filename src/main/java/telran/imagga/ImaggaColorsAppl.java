@@ -19,7 +19,7 @@ public class ImaggaColorsAppl {
         String imageUrl = "https://imagga.com/static/images/tagging/wind-farm-538576_640.jpg";
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
-        headers.add("Authorization", "Basic YWNjX2VkZmNkZTUwNDY4NDQzZDoyMjAyOTZiN2M5ZGZhNDA5NDU4MDNmMzc0MGU0ODFlOQ==");
+        headers.add("Authorization", "Basic ");
         UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(baseUrl)
                 .queryParam("image_url", imageUrl);
         URI url =  builder.build().toUri();
